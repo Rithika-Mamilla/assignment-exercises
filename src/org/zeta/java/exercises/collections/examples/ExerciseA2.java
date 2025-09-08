@@ -1,4 +1,4 @@
-package org.zeta.java.exercises;
+package org.zeta.java.exercises.collections.examples;
 
 import java.util.HashSet;
 

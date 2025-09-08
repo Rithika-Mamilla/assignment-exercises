@@ -1,4 +1,4 @@
-package org.zeta.java.exercises;
+package org.zeta.java.exercises.collections.lists;
 
 import java.util.LinkedList;
 
