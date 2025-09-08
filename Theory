@@ -1,0 +1,50 @@
+Writing readable java ode is essential for creating software that is easy to understand, maintain, and extend.
+Readable code helps reduce bugs, simplifies debugging, and makes it easier to extend or modify existing functionality.
+
+
+Importance:
+* Maintainability
+* Collaboration
+* Longevity
+
+
+1. Use Meaningful Names: Classes, Methods, Members, Constants
+2. Formatting (braces for loops)
+3. Keep Methods Focused & Short:
+   * Each method should perform ONE Task
+   * Avoid LONG methods; break complex logic into helper methods
+4. Write Clear Control Flows
+   * Use straightforward Loops & Conditions
+   * Prefer early returns to reduce nested codes
+   * Make use of switch...case for multiple conditions
+5. Documentation
+   * Use javadocs
+   * Keep Comments in the Code
+6. Use Constants & Enums
+7. Organize your Code into Packages
+
+Maintainable Codes
+1. DRY (Don't Repeat Yourself)
+2. YAGNI (You Aren't Gonna Need It)
+3. KISS (Keep It Simple, Stupid)
+
+Break Logic into Reusable Modules
+1. Use Classes & Methods Efficiently
+   * Encapsulate related logic within classes
+   * Create small, focused methods that perform one single task
+   * Reuse the methods across different parts of the application
+2. Follow SRP (Single Responsibility Principle)
+   * Each class
+
+
+Maven Lifecycle
+
+1. clean: Cleans the code
+2. validate: Checks if the project is correct & all necessary information is available
+3. compile: Compiles the code
+4. test: Runs tests against the compile source
+5. package: Packages the compiled code to distributable formats JAR or WAR
+6. verify: Performs any checks on the packaged code
+7. install: Installs the package into the local repository for use as a dependency
+8. site: Generates the project site including Javadoc, dependencies & other documentations
+9. deploy: Copies the final package to a remote repository for sharing
