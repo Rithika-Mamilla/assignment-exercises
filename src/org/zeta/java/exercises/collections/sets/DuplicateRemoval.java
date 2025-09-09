@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.sets;
 
 import java.util.HashSet;
 
-public class ExerciseC1 {
+public class DuplicateRemoval {
     public static void main(String[] args) {
         String[] values = {"Apple", "Banana", "Apple", "Grape", "Orange", "Grape", "Apple", "Banana", "Kiwi", "Orange"};
         HashSet<String> fruits = new HashSet<>();

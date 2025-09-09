@@ -1,10 +1,9 @@
 package org.zeta.java.exercises.collections.lists;
 
 import java.util.LinkedList;
-import java.util.Queue;
 
-public class ExerciseB3 {
-    private static Queue<Integer> queue;
+public class Queue {
+    private static java.util.Queue<Integer> queue;
 
     private static void enqueue(int element) {
         queue.offer(element);

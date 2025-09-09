@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.sets;
 
 import java.util.TreeSet;
 
-public class ExerciseC2 {
+public class SortedNames {
     public static void main(String[] args) {
         TreeSet<String> names = new TreeSet<>();
         names.add("Rosie");

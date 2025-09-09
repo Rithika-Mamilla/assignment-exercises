@@ -3,7 +3,7 @@ package org.zeta.java.exercises.collections.examples;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExerciseA1 {
+public class StudentNames {
     public static void main(String[] args) {
         List<String> studentNames = new ArrayList<>();
         studentNames.add("Alan");

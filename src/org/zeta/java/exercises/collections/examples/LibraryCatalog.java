@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.examples;
 
 import java.util.TreeSet;
 
-public class ExerciseA4 {
+public class LibraryCatalog {
     public static void main(String[] args) {
         TreeSet<String> books = new TreeSet<>();
         books.add("Harry Potter and the Sorcerer's Stone");

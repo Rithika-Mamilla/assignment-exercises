@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.examples;
 
 import java.util.HashSet;
 
-public class ExerciseA2 {
+public class UniqueEmail {
     public static void main(String[] args) {
         HashSet<String> emailAddresses = new HashSet<>();
         emailAddresses.add("john@gmail.com");

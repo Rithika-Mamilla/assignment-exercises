@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.examples;
 
 import java.util.HashMap;
 
-public class ExerciseA3 {
+public class CountryCodes {
     public static void main(String[] args) {
         HashMap<String, String> countries = new HashMap<>();
         countries.put("IND", "India");

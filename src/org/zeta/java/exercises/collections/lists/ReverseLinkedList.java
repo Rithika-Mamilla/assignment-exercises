@@ -3,7 +3,7 @@ package org.zeta.java.exercises.collections.lists;
 import java.util.LinkedList;
 import java.util.List;
 
-public class ExerciseB2 {
+public class ReverseLinkedList {
     private static List<Integer> integers;
     private static void reverse(List<Integer> integers){
         int left = 0;

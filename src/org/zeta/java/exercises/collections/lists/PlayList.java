@@ -2,7 +2,7 @@ package org.zeta.java.exercises.collections.lists;
 
 import java.util.LinkedList;
 
-public class ExerciseB1 {
+public class PlayList {
     private static LinkedList<String> playlist;
 
     public static void addSongAtTheBeginning(String song) {
@@ -19,7 +19,7 @@ public class ExerciseB1 {
 
     public static void main(String[] args) {
         playlist = new LinkedList<>();
-        String[] songs = {"MIC Drop", "Butter", "Dynamite", "Permission To Dance", "Take Two", "Spring Day"};
+        String[] songs = {"Magic Shop", "Butter", "Dynamite", "Permission To Dance", "Take Two", "Spring Day"};
         addSongAtTheBeginning(songs[0]);
         System.out.println(playlist);
         addSongAtTheBeginning(songs[2]);

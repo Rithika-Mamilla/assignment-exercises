@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class ExerciseC3 {
+public class CustomSorting {
     public static void main(String[] args) {
         Comparator<Employee> salaryComparator = (e1, e2) -> {
             int compare = Double.compare(e2.getSalary(), e1.getSalary());
